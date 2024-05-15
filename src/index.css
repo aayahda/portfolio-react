@@ -37,8 +37,14 @@ nav ul{
 .menu{
   display: flex;
   justify-content: space-between;
-  width: 1000px;
+  width: 950px;
   align-items: center;
+  padding-right:30px;
+}
 
+Button{
+  height:45px;
+  padding-inline:10px;
+  
 }
 
