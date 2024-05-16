@@ -50,7 +50,7 @@ Button{
 }
 
 .bio{
-  padding-top: 80px;
+  padding-top: 60px;
   padding-inline: 140px;
   color: white;
 }
@@ -95,11 +95,18 @@ Button{
   font-weight: 600px;
   margin-bottom: 10px;
 }
-span{
+.span{
   color:#b9935f;
 }
-.phrase p{
+.Tag{
   color:#a3a3a3;
   font-size: 20px;
   font-weight:bolder
+}
+.avatar {
+  margin-right:60px;
+ /* background-color: white; */
+ border-radius: 50%;
+ border: 20px solid #b9935f;
+ 
 }
