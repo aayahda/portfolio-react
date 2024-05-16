@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Headroom from 'react-headroom';
 import Bio from './components/Bio';
 import Expertise from './components/expertise';
+import About from './components/about';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Headroom><Navbar/></Headroom>
       <Bio/> 
       <Expertise/>
+      <About/>
 
      </div>
   );

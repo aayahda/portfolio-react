@@ -127,3 +127,32 @@ Button{
   font-weight: bold;
   font-family: "Lora", serif;
 }
+.about{
+  padding-top: 5rem;
+  justify-content: center;
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-weight: 300px;
+
+}
+.about ul{
+  display: flex;
+  justify-content:center;
+  list-style: none;
+}
+
+.about ul li{
+  margin: 10px;
+}
+
+.container{
+  padding-top: 30px;
+  padding-inline: 10rem;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  height: 30rem;
+}
+.container div{
+  background-color: #151515;
+}
