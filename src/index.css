@@ -115,6 +115,7 @@ Button{
   padding-top: 6rem;
   padding-inline: 8rem;
   height: 40px;
+  z-index: 0;
 }
 
 .exp ul{
@@ -149,10 +150,29 @@ Button{
   padding-top: 30px;
   padding-inline: 10rem;
   display:grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1.5fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
-  height: 30rem;
+  height: 90vh;
 }
 .container div{
   background-color: #151515;
+  border-radius: 1rem;
 }
+.stack{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.LinkedIn{
+  grid-row: span 0.5;
+}
+.card{
+  grid-row: span 0.5;
+} 
+.exper{
+  grid-row:span 2;
+}
+.Project{
+grid-row: span 1;
+}
+
