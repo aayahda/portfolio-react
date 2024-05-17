@@ -174,7 +174,7 @@ Button{
   padding: 0.2rem;
 }
 .card{
-  grid-row: span 0.5;
+  grid-row: span 0.5; 
 } 
 .exper{
   grid-row:span 2;
@@ -208,4 +208,25 @@ div .container3{
   text-align: left;
   margin: 5px;
   background-color: #262626;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  background-color: #3ebe5f;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+ 
+}
+.content{
+  background-color: #b9935f;
+  margin-left: 20px;
+  color: #0e0e0e;
+  text-align: left;
+}
+
+.image img{
+  border-radius: 30px;
+  background-color: #151515;
 }

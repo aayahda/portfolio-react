@@ -1,5 +1,6 @@
 import React from "react";
 import Experience from "./experience";
+import Card from "./card";
 
 function About(){
     return(
@@ -13,7 +14,7 @@ function About(){
 </svg></div>
 
             </div>
-            <div className="card" >About</div>
+            <div  ><Card className="card"/></div>
             <div className="stack">Stack</div>
             <div className="Project" >Projects</div>
             
