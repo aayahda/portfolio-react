@@ -26,6 +26,7 @@ nav{
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
   -webkit-backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
+  z-index: 1000;
     
 }
 
@@ -88,6 +89,7 @@ Button{
   border: 1px solid #262626;
   font-size: 14px;
   font-family: "Lora", serif;
+  
 }
 .bio h1{
   font-size: 70px;
@@ -115,7 +117,8 @@ Button{
   padding-top: 6rem;
   padding-inline: 8rem;
   height: 40px;
-  z-index: 0;
+  z-index: -10;
+  position: relative;
 }
 
 .exp ul{
@@ -148,7 +151,7 @@ Button{
 
 .container{
   padding-top: 30px;
-  padding-inline: 10rem;
+  padding-inline: 7rem;
   display:grid;
   grid-template-columns: 2fr 1.5fr 3fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -174,5 +177,21 @@ Button{
 }
 .Project{
 grid-row: span 1;
+
+}
+.expcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-inline: 0.5rem;
+  height: 100%;
+}
+
+div .container3{
+  background-color: #262626;
+  font-size: 16px;
+  display: flex;
+  padding: 0.1rem;
+ margin: 0.25rem;
 }
 

@@ -1,12 +1,12 @@
 import React from "react";
-
+import Experience from "./experience";
 
 function About(){
     return(
-        <div className="about">
+        <div className="about" >
             <h1>About Me</h1>      
         <div className="container">
-            <div className="exper" >Experience</div>
+            <div className="exper" ><Experience/></div>
             <div className="LinkedIn"> LinkedIn</div>
             <div className="card" >About</div>
             <div className="stack">Stack</div>
