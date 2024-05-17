@@ -1,0 +1,28 @@
+.container4{
+    display: flex;
+    min-height: 70px;
+    align-items: start;
+    padding-right: 35px;
+    padding-left:20px;
+    padding-top: 10px;
+    justify-self: center;
+}
+.desc{
+    padding-inline: 10px;
+   align-items: start;
+   justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc h5 {
+    font-size: 25px;
+    color: white;
+    margin-top:0px;
+    margin-bottom: 0px; 
+  }
+
+  .desc p{
+    margin-top:0px;
+    font-size: 20px;
+  }

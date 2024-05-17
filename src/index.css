@@ -162,10 +162,7 @@ Button{
   background-color: #151515;
   border-radius: 1rem;
 }
-.stack{
-  grid-column: span 2;
-  grid-row: span 2;
-}
+
 .LinkedIn{
   grid-row: span 0.5;
   justify-content: center; 
@@ -213,7 +210,6 @@ div .container3{
 .card-container{
   display: flex;
   flex-direction: row;
-  background-color: #3ebe5f;
   padding: 20px;
   height: 100%;
   box-sizing: border-box;
@@ -229,4 +225,15 @@ div .container3{
 .image img{
   border-radius: 30px;
   background-color: #151515;
+}
+.stack{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.mystack{
+  height: 100%;
+  box-sizing: border-box;
+  padding-top:40px;
+  padding-inline: 60px;
+  
 }

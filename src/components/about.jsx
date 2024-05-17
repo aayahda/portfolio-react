@@ -1,6 +1,7 @@
 import React from "react";
 import Experience from "./experience";
 import Card from "./card";
+import Stack from "./Stack";
 
 function About(){
     return(
@@ -15,7 +16,7 @@ function About(){
 
             </div>
             <div  ><Card className="card"/></div>
-            <div className="stack">Stack</div>
+            <div className="stack"><Stack/></div>
             <div className="Project" >Projects</div>
             
         </div>
