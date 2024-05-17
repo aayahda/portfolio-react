@@ -168,6 +168,10 @@ Button{
 }
 .LinkedIn{
   grid-row: span 0.5;
+  justify-content: center; 
+  align-items: center;
+  display: flex; 
+  padding: 0.2rem;
 }
 .card{
   grid-row: span 0.5;
@@ -193,5 +197,15 @@ div .container3{
   display: flex;
   padding: 0.1rem;
  margin: 0.25rem;
+
 }
 
+.container3 div{
+  width: fit-content;
+  padding: 8px;
+  border-radius: 0;
+  display: inline;
+  text-align: left;
+  margin: 5px;
+  background-color: #262626;
+}
