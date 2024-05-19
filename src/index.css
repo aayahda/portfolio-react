@@ -152,6 +152,7 @@ Button{
 .container{
   padding-top: 30px;
   padding-inline: 7.5rem;
+  padding-bottom: 8rem;
   display:grid;
   grid-template-columns: 1.8fr 1.5fr 2.5fr;
   grid-template-rows: 1fr 0.8fr 0.8fr;

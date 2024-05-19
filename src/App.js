@@ -5,7 +5,7 @@ import Headroom from 'react-headroom';
 import Bio from './components/Bio';
 import Expertise from './components/expertise';
 import About from './components/about';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Bio/> 
       <Expertise/>
       <About/>
+      <Footer/>
 
      </div>
   );
