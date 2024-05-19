@@ -154,7 +154,7 @@ Button{
   padding-inline: 7rem;
   display:grid;
   grid-template-columns: 2fr 1.5fr 3fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.8fr;
   gap: 20px;
   height: 90vh;
 }
@@ -233,7 +233,6 @@ div .container3{
 .mystack{
   height: 100%;
   box-sizing: border-box;
-  padding-top:40px;
+  padding-top:20px;
   padding-inline: 60px;
-  
 }
