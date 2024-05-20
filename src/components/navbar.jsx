@@ -9,11 +9,13 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 function Navbar(){
     return (
    <nav >
+    
     <Fab size="medium">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
         <path d="M39.5,43h-9c-1.381,0-2.5-1.119-2.5-2.5v-9c0-1.105-0.895-2-2-2h-4c-1.105,0-2,0.895-2,2v9c0,1.381-1.119,2.5-2.5,2.5h-9	C7.119,43,6,41.881,6,40.5V21.413c0-2.299,1.054-4.471,2.859-5.893L23.071,4.321c0.545-0.428,1.313-0.428,1.857,0L39.142,15.52	C40.947,16.942,42,19.113,42,21.411V40.5C42,41.881,40.881,43,39.5,43z"></path>
         </svg>
     </Fab>
+    
     <div className="menu">
      <ul>
         <li>Works</li>
@@ -22,7 +24,8 @@ function Navbar(){
       </ul>
       <ul>
         <li>
-            <Fab size="small" className="custom-fab" style={{backgroundColor:'#262626'}}>
+        <a href="https://x.com/aayahda" target="_blank" rel="noopener noreferrer">
+            <Fab size="small" className="custom-fab" style={{backgroundColor:'#262626',boxShadow:"none"}}>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256">
                     <g fill="#a3a3a3" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style={{ mixBlendMode: "normal" }}>
                         <g transform="scale(8.53333,8.53333)">
@@ -32,9 +35,11 @@ function Navbar(){
                     </g>
                 </svg>
             </Fab>
+            </a>
         </li>
         <li>
-            <Fab size="small" className="custom-fab" style={{backgroundColor:'#262626'}}>
+        <a href="https://github.com/aayahda" target="_blank" rel="noopener noreferrer">
+            <Fab size="small" className="custom-fab" style={{backgroundColor:'#262626',boxShadow:"none"}}>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256">
                     <g fill="#a3a3a3" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style={{mixBlendMode: "normal"}}>
                         <g transform="scale(8.53333,8.53333)">
@@ -44,13 +49,19 @@ function Navbar(){
                     </g>
                 </svg>
             </Fab>
+            </a>
         </li>
-        <li><Fab size="small" className="custom-fab" style={{backgroundColor:'#262626'}}><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256">
+        <li>
+        <a href="https://www.linkedin.com/in/aadhyakraj/" target="_blank" rel="noopener noreferrer">
+            <Fab size="small" className="custom-fab" style={{backgroundColor:'#262626',boxShadow:"none"}}><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256">
 <g fill="#a3a3a3" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style={{mixBlendMode: "normal"}}><g transform="scale(10.66667,10.66667)"><path d="M5,3c-1.105,0 -2,0.895 -2,2v14c0,1.105 0.895,2 2,2h14c1.105,0 2,-0.895 2,-2v-14c0,-1.105 -0.895,-2 -2,-2zM5,5h14v14h-14zM7.7793,6.31641c-0.857,0 -1.37109,0.51517 -1.37109,1.20117c0,0.686 0.51416,1.19922 1.28516,1.19922c0.857,0 1.37109,-0.51322 1.37109,-1.19922c0,-0.686 -0.51416,-1.20117 -1.28516,-1.20117zM6.47656,10v7h2.52344v-7zM11.08203,10v7h2.52344v-3.82617c0,-1.139 0.81264,-1.30273 1.05664,-1.30273c0.244,0 0.89649,0.24473 0.89649,1.30273v3.82617h2.44141v-3.82617c0,-2.197 -0.97627,-3.17383 -2.19727,-3.17383c-1.221,0 -1.87226,0.40656 -2.19726,0.97656v-0.97656z"></path></g></g>
-</svg></Fab></li>
+</svg></Fab>
+</a>
+</li>
       </ul></div>
+      <a href="mailto:aadhyakraj@gmail.com?subject=Hey! Let's Connect" target="_blank" rel="noopener noreferrer">
       <Button style={{ textTransform: 'none',borderRadius:'8px' }} variant="contained">Let's Talk<ArrowOutwardIcon size="small"/></Button>
-   </nav>)
+   </a></nav>)
 }
 
 export default Navbar;
