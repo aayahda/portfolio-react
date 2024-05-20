@@ -9,7 +9,7 @@ function Bio(){
         AOS.init({duration:2000});
     },[]);
     return (
-        <div  className="bio">
+        <div  className="bio" id="home">
             <ul >
                <li>
                <div data-aos="fade-up" data-aos-easing="ease" >

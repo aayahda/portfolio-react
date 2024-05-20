@@ -10,7 +10,7 @@ function About(){
         AOS.init({duration:2000});
     },[]);
     return(
-        <div className="about" >
+        <div className="about" id="about">
             <h1>About Me</h1>      
         <div className="container">
             <div className="exper" data-aos="fade-right" data-aos-easing="ease" ><Experience/></div>
