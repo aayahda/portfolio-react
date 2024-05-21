@@ -35,9 +35,11 @@ nav ul{
   justify-content: space-between;
   list-style: none;
   gap: 15px;
+  padding-left: 0;
 }
 
 .menu{
+  margin-left: 3rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -47,8 +49,7 @@ nav ul{
 
 Button{
   height:45px;
-  padding-inline:10px;
-  
+  padding-inline:10px; 
 }
 
 .bio{

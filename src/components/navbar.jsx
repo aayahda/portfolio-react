@@ -64,9 +64,10 @@ function Navbar(){
 </li>
       </ul>
       </div>
+      <div>
       <a href="mailto:aadhyakraj@gmail.com?subject=Hey! Let's Connect" target="_blank" rel="noopener noreferrer">
       <Button className="ls-button"style={{ textTransform: 'none',borderRadius:'8px' }} variant="contained">Let's Talk<ArrowOutwardIcon size="small"/></Button>
-     </a>
+     </a></div>
      </nav>)
 }
 

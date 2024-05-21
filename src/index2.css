@@ -80,13 +80,14 @@ nav .hamburger{
     display: flex;
   }
   nav .ls-button{
-    /* display: none; */
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 8rem;
+   
   }
   nav{
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     height: 70vh;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -101,6 +102,8 @@ nav .hamburger{
     justify-content: center; 
     align-items: center; 
     height: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
     
   }
   nav .pages{
