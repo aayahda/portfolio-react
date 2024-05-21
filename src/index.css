@@ -40,9 +40,9 @@ nav ul{
 .menu{
   display: flex;
   justify-content: space-between;
-  width: 950px;
+  width: 100%;
   align-items: center;
-  padding-right:30px;
+  padding-inline:30px;
 }
 
 Button{

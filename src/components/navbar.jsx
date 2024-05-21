@@ -3,19 +3,22 @@ import Fab from '@material-ui/core/Fab';
 import Button from '@material-ui/core/Button';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { Link } from 'react-scroll';
-
-
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 function Navbar(){
+
     return (
-   <nav >
+   <nav>
     <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
-    <Fab size="medium">
+    <Fab size="medium" style={{position:"absolute",top:"1rem",left:"1rem"}}>
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
         <path d="M39.5,43h-9c-1.381,0-2.5-1.119-2.5-2.5v-9c0-1.105-0.895-2-2-2h-4c-1.105,0-2,0.895-2,2v9c0,1.381-1.119,2.5-2.5,2.5h-9	C7.119,43,6,41.881,6,40.5V21.413c0-2.299,1.054-4.471,2.859-5.893L23.071,4.321c0.545-0.428,1.313-0.428,1.857,0L39.142,15.52	C40.947,16.942,42,19.113,42,21.411V40.5C42,41.881,40.881,43,39.5,43z"></path>
         </svg>
     </Fab></Link>
+    <div className="hamburger">
+    <MenuIcon style={{color:"white",fontSize:"40px"}}/>
+    </div>
     
     <div className="menu">
      <ul>
@@ -59,10 +62,12 @@ function Navbar(){
 </svg></Fab>
 </a>
 </li>
-      </ul></div>
+      </ul>
+      </div>
       <a href="mailto:aadhyakraj@gmail.com?subject=Hey! Let's Connect" target="_blank" rel="noopener noreferrer">
-      <Button style={{ textTransform: 'none',borderRadius:'8px' }} variant="contained">Let's Talk<ArrowOutwardIcon size="small"/></Button>
-   </a></nav>)
+      <Button className="ls-button"style={{ textTransform: 'none',borderRadius:'8px' }} variant="contained">Let's Talk<ArrowOutwardIcon size="small"/></Button>
+     </a>
+     </nav>)
 }
 
 export default Navbar;

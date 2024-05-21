@@ -65,3 +65,35 @@ footer ul{
 footer Fab{
   box-shadow: none;
 }
+
+nav .hamburger{
+  display:none;
+  position: absolute;
+  top: 1.3rem;
+  right:1rem;
+  flex-direction: column;
+  padding-inline:10px;
+  justify-content: space-between;
+}
+@media (max-width:1000px){
+  nav .hamburger{
+    display: flex;
+  }
+  nav .ls-button{
+    display: none;
+  }
+  nav{
+    flex-direction: column;
+    align-items: start;
+    height: 180px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
+  z-index: 1000;
+  }
+  nav menu{
+    flex-direction: inline;
+    flex-direction: row;
+  }
+}
