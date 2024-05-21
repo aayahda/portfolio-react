@@ -21,7 +21,7 @@ function Navbar(){
     </div>
     
     <div className="menu">
-     <ul>
+     <ul className="pages">
       <li>Works</li>
         <li>Blog</li>
         <li><Link to="about" spy={true} smooth={true} offset={90} duration={500}>About</Link></li>
