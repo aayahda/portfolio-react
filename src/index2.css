@@ -80,7 +80,7 @@ nav .hamburger{
     display: flex;
   }
   nav .ls-button{
-    margin-bottom: 8rem;
+    margin-bottom: 6.5rem;
    
   }
   nav{
@@ -88,7 +88,7 @@ nav .hamburger{
     align-items: center;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
@@ -111,6 +111,7 @@ nav .hamburger{
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    margin-bottom: 1.8rem;
   }
   nav ul {
     gap: 4rem;
