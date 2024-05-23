@@ -79,6 +79,9 @@ nav .hamburger{
 /* styles.css */
 
 @media (max-width: 1000px) {
+  .avatar{
+    display: none;
+  }
   nav {
     justify-content: center;
     align-items: center;
