@@ -75,27 +75,33 @@ nav .hamburger{
   padding-inline:10px;
   justify-content: space-between;
 }
-@media (max-width:1000px){
-  nav .hamburger{
-    display: flex;
-  }
-  nav .ls-button{
-    margin-bottom: 6.5rem;
-   
-  }
-  nav{
+
+/* styles.css */
+
+@media (max-width: 1000px) {
+  nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
     align-items: center;
-    height: 60vh;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
-  z-index: 1000;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
+    z-index: 1000;
+    overflow: hidden;
+    transition: height 0.3s ease; /* Smooth transition */
   }
-  nav .menu{
+
+  nav .hamburger {
+    display: flex;
+  }
+
+  nav .ls-button {
+    margin-bottom: 6.5rem;
+  }
+
+  nav .menu {
     padding-top: 1rem;
     display: flex;
     flex-direction: column; 
@@ -104,19 +110,35 @@ nav .hamburger{
     height: 100%;
     box-sizing: border-box;
     margin-left: auto;
-    
+    overflow: hidden;
+    transition: height 0.3s ease; /* Smooth transition */
   }
-  nav .pages{
+
+  nav.closed {
+    height: 80px; /* Height when the menu is closed */
+  }
+  #closed.menu{
+    display: none;
+  }
+ nav .btnclosed{
+  display: none;
+ }
+
+  nav.open {
+    height: 60vh; /* Height when the menu is open */
+  }
+
+  nav .pages {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
     margin-bottom: 1.8rem;
   }
+
   nav ul {
     gap: 4rem;
     text-align: center;
     padding-left: 0%;
-
   }
 }
