@@ -6,6 +6,7 @@ import Bio from './components/Bio';
 import Expertise from './components/expertise';
 import About from './components/about';
 import Footer from './components/Footer';
+import Works from './components/works';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Headroom><Navbar/></Headroom>
       <Bio /> 
       <Expertise/>
+      <Works/>
       <About/>
       <Footer/>
 
