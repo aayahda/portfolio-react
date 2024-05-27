@@ -3,7 +3,9 @@ import '../works.css';
 import Fab from '@material-ui/core/Fab';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
+
 function WorkBox(props){
+   
     const [isHovered, setIsHovered] = useState(false);
     const backgroundImage = isHovered
         ? `linear-gradient(to bottom, rgba(0,0,0,0) 0%, #151515 100%), url(${props.image})`
@@ -11,7 +13,7 @@ function WorkBox(props){
 
     return( 
 
-<div className={`gradient-bg ${isHovered ? 'glow' : ''}`} style={{ backgroundImage: backgroundImage, transition: 'background-image 0.5s ease-in-out'}}
+<div className={`gradient-bg ${isHovered ? 'glow' : ''}`}  style={{ backgroundImage: backgroundImage, transition: 'background-image 0.5s ease-in-out'}}
  onMouseEnter={() => setIsHovered(true)}
  onMouseLeave={() => setIsHovered(false)}>
     <div style={{display:isHovered?"none":"flex"}}><ul>

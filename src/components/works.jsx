@@ -1,13 +1,17 @@
-import React from "react";
+import React,{useEffect} from "react";
 import '../works.css';
 import WorkBox from "./workbox";
-
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 function Works(){
+    useEffect(()=>{
+        AOS.init({duration:2000});
+    },[]);
     return (
     <div className="works" style={{fontFamily:"Lora, serif"}}><h1> Selected works</h1>
-    <div className="work-box">
-    <WorkBox
+    <div className="work-box" data-aos="fade-up" data-aos-easing="ease">
+    <WorkBox 
     image='https://i.pinimg.com/564x/5c/f7/8e/5cf78e5980b7570562f73b6a7a367874.jpg' 
     tech={['Flutter', 'Firebase','Figma']}
     heading="MyPlasticPays ♻️"
