@@ -1,5 +1,7 @@
 import React,{useState} from "react";
 import '../works.css';
+import Fab from '@material-ui/core/Fab';
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 function WorkBox(props){
     const [isHovered, setIsHovered] = useState(false);
@@ -9,7 +11,7 @@ function WorkBox(props){
 
     return( 
 <div className="work-box">
-<div className="gradient-bg"style={{ backgroundImage: backgroundImage, transition: 'background-image 0.3s ease-in-out'}}
+<div className="gradient-bg"style={{ backgroundImage: backgroundImage, transition: 'background-image 0.5s ease-in-out'}}
  onMouseEnter={() => setIsHovered(true)}
  onMouseLeave={() => setIsHovered(false)}>
     <div style={{display:isHovered?"none":"flex"}}><ul>
@@ -17,6 +19,8 @@ function WorkBox(props){
                             <li key={index}>{tec}</li>
                         ))}
         </ul></div>
+        <div style={{justifyContent:"center",alignItems:"center",textAlign:"center",height:"100%",display:isHovered?"flex":"none"}}>
+            <a href={props.link} target="_blank" rel="noopener noreferrer"><Fab style={{ transform: 'scale(2.0)', backgroundColor:"#151515" ,boxShadow:"none"}}><ArrowOutwardIcon style={{color:"#b9935f", fontSize:"2.5rem",strokeWidth:"2px"}}/></Fab></a></div>
  <div className="desc" style={{display:isHovered?"none":"flex"}}>
     <h3>{props.heading}</h3>
     <p> {props.desc} </p>
