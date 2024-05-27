@@ -12,7 +12,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 1.5rem;
+    gap: 3rem;
     height: 120vh;
 }
 
@@ -29,6 +29,10 @@
     height: 100%;
     
   }
+  .glow {
+    border: solid 0.3rem #b9935f;
+    box-shadow: 0 0 15px #b9935f;
+}
   .gradient-bg div{
     padding-left: 2rem;
   }
