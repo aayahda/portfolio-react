@@ -159,6 +159,21 @@ Button{
   gap: 1.5rem;
   height: 90vh;
 }
+
+@media (max-width: 1000px) {
+  .container{
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;}
+  .filler{
+    display: none;
+  }
+  footer{
+    margin-top: 3rem;
+  }
+  .exper{
+    grid-column:span 1;
+  }
+}
 .container div{
   background-color: #151515;
   border-radius: 1rem;

@@ -66,3 +66,11 @@
     margin-top: 0.2rem;
     padding-bottom: 1rem;
 }
+
+@media (max-width: 1000px) {
+    .work-box{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+}
