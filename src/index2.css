@@ -127,7 +127,7 @@ nav .hamburger{
  }
 
   nav.open {
-    height: 60vh; /* Height when the menu is open */
+    height: 50vh; /* Height when the menu is open */
   }
 
   nav .pages {

@@ -6,7 +6,7 @@ function Stack() {
     return (
       <div className="mystack" >
         <h3>My Stack</h3>
-        <div style={{justifyContent:"center",alignItems:"center", display:"flex",flexDirection:"column",height:"70%"}} >
+        <div style={{justifyContent:"center",alignItems:"center", display:"flex",flexDirection:"column",height:"70%",overflow:"hidden"}} >
             <Marquee style={{marginRight:"0px", height:"min-content"}}  gradient="true" gradientColor="#161616" speed={35}>
                 <div className="container4" style={{backgroundColor:"#262626"}}>
                     <div className="logo" style={{backgroundColor:"#262626"}}><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
