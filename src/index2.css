@@ -4,16 +4,17 @@
     align-items: start;
     padding-right: 35px;
     padding-left:20px;
-    padding-top: 10px;
+    padding-top: 1.2rem;
     background-color: #262626;
     justify-self: center;
 }
 .desc{
     padding-inline: 10px;
-   align-items: start;
-   justify-content: center;
+    align-items: start;
+    justify-content: center;
     display: flex;
     flex-direction: column;
+    
 }
 
 .desc h5 {
@@ -21,20 +22,21 @@
     color: white;
     margin-top:0px;
     margin-bottom: 0px; 
-  }
+}
 
-  .desc p{
+.desc p{
     margin-top:0px;
     font-size: 20px;
-  }
+}
 
-  footer{
+footer{
     background-color: #151515;
     margin-inline: 8rem;
     border-radius: 2rem;
     padding:2.5rem;
     margin-bottom:50px ;
-  }
+    
+}
 
 footer ul{
   display: flex;
@@ -42,25 +44,24 @@ footer ul{
   list-style: none;
   gap: 85px;
   text-align: left;
-  }
+}
 
- .fmenu{
+.fmenu{
     padding: 40px;
+}
 
-  }
-
-  footer div div div{
+footer div div div{
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 120px;
     text-align: left;
-    }
+}
 
-    .fbuttons{
+.fbuttons{
       padding-top: 30px;
       gap: 50px;
-    }
+}
 
 footer Fab{
   box-shadow: none;
@@ -76,7 +77,9 @@ nav .hamburger{
   justify-content: space-between;
 }
 
-/* styles.css */
+.fmenu p{
+  cursor: pointer;
+}
 
 @media (max-width: 1000px) {
   .avatar{
@@ -143,4 +146,8 @@ nav .hamburger{
     text-align: center;
     padding-left: 0%;
   }
+}
+
+.pages li{
+  cursor: pointer;
 }
