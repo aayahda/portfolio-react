@@ -17,7 +17,7 @@ function Footer(){
     <div className="fmenu">
     <div>
         <p><Link to="works" spy={true} smooth={true} offset={90} duration={500}>Works</Link> </p>
-        <p>Blog</p>
+        <p><Link to="honors" spy={true} smooth={true} offset={70} duration={500}>Honors</Link></p>
         <p><Link to="about" spy={true} smooth={true} offset={120} duration={500}>About</Link></p>
     </div>
     <div className="fbuttons">
