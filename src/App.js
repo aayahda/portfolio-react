@@ -7,6 +7,7 @@ import Expertise from './components/expertise';
 import About from './components/about';
 import Footer from './components/Footer';
 import Works from './components/works';
+import Honors from './components/honors';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Bio /> 
       <Expertise/>
       <Works/>
+      <Honors/>
       <About/>
       <Footer/>
 

@@ -23,7 +23,7 @@ function Navbar() {
       <div className="menu" id={menuOpen ? "open" : "closed"}>
         <ul className="pages" id={menuOpen ? "open" : "closed"}>
           <li ><Link to="works" spy={true} smooth={true} offset={90} duration={500}>Works</Link></li>
-          <li>Blog</li>
+          <li>Honors</li>
           <li><Link to="about" spy={true} smooth={true} offset={90} duration={500}>About</Link></li>
         </ul>
         <ul>

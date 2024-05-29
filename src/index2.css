@@ -95,7 +95,7 @@ nav .hamburger{
     backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
     -webkit-backdrop-filter: blur(20px) saturate(180%) contrast(50%) brightness(130%);
     z-index: 1000;
-    transition: height 0.3s ease; /* Smooth transition */
+    transition: height 0.3s ease; 
   }
 
   nav .hamburger {
@@ -116,11 +116,11 @@ nav .hamburger{
     box-sizing: border-box;
     margin-left: auto;
     overflow: hidden;
-    transition: height 0.3s ease; /* Smooth transition */
+    transition: height 0.3s ease; 
   }
 
   nav.closed {
-    height: 80px; /* Height when the menu is closed */
+    height: 80px; 
   }
   #closed.menu{
     display: none;
@@ -130,7 +130,7 @@ nav .hamburger{
  }
 
   nav.open {
-    height: 50vh; /* Height when the menu is open */
+    height: 50vh; 
   }
 
   nav .pages {
