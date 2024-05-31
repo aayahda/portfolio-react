@@ -29,12 +29,12 @@
 .box p{
     font-size: 1rem;
     font-family: 'Nunito', sans-serif;
+    padding: 10px;
 }
 
 .box:hover{
     transform: translate3d(8px, -10px, 30px);
-    
     color:white;
     /* box-shadow: 0 0 15px white; */
-    box-shadow: 12px 0 15px -4px white, -12px 0 15px -4px white;
+    /* box-shadow: 12px 0 15px -4px white, -12px 0 15px -4px white;*/
 }
