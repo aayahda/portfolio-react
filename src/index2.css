@@ -42,7 +42,6 @@ footer ul{
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 85px;
   text-align: left;
 }
 
@@ -54,7 +53,7 @@ footer div div div{
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 120px;
+    gap: 6rem;
     text-align: left;
 }
 

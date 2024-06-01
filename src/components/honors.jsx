@@ -8,19 +8,19 @@ function Honors(){
         <h1> Key Accomplishments</h1>
         <div className="honor-box" >
             <div className="box">
-                <div className="bg-img" style={{backgroundImage:"url(https://i.pinimg.com/564x/e2/d9/e1/e2d9e1a35adbd3690f944d9839dddf23.jpg)",backgroundSize:"contain"}}></div>
+                <div className="bg-img" style={{backgroundImage:"url(../../Assets/Team.png)",backgroundSize:"contain"}}></div>
                     <p> Bagged a prize in National-level India Plastic Challenge Hackathon conducted by the Ministry of India.</p>
             </div>
             <div className="box">
-                <div className="bg-img" style={{backgroundImage:"url(https://i.pinimg.com/564x/0b/f2/7e/0bf27e40a1101b2f659d50e95a0d5156.jpg)",backgroundSize:"contain"}}></div>
-                    <p> Fortunate to be the youngest Entrepreneur speaker at the at the Women In Business Conclave, Thrissur.</p>
-            </div>
-            <div className="box">
-                <div className="bg-img" style={{backgroundImage:"url(https://i.pinimg.com/564x/89/bb/ca/89bbcab73b8d5d37272c2ed534af1237.jpg)",backgroundSize:"contain"}}></div>
+                <div className="bg-img" style={{backgroundImage:"url(../../Assets/TeamWinning.png)",backgroundSize:"contain"}}></div>
                     <p> Among the Top 12 teams in  National Level WiT Ace Hackathon in association with IBM.</p>
             </div>
             <div className="box">
-                <div className="bg-img" style={{backgroundImage:"url(https://i.pinimg.com/564x/0b/f2/7e/0bf27e40a1101b2f659d50e95a0d5156.jpg)",backgroundSize:"contain"}}></div>
+                <div className="bg-img" style={{backgroundImage:"url(../../Assets/TalkShow.png)",backgroundSize:"contain"}}></div>
+                    <p> Fortunate to be the youngest Entrepreneur speaker at the at the Women In Business Conclave, Thrissur.</p>
+            </div>
+            <div className="box">
+                <div className="bg-img" style={{backgroundImage:"url(../../Assets/SSF.png)",backgroundSize:"contain"}}></div>
                     <p> Successfully organized Summer Startup Festival , an Entrepreneurship summit multiple times in College.</p>
             </div>
         </div>

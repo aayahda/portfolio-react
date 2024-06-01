@@ -56,6 +56,7 @@ function Footer(){
 </svg></Fab>
 </a></p>
         </div></div>
+        <p>🖤</p>
         <p>© copyright {year}</p>
         </div>
     </footer>)
