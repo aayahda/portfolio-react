@@ -215,6 +215,9 @@ div .container3{
   margin: 0.25rem;
 
 }
+.custom-fab:hover svg g{
+  fill: white;
+}
 
 .container3 div{
   width: fit-content;
