@@ -13,7 +13,7 @@ function WorkBox(props){
 
     return( 
 
-<div className={`gradient-bg ${isHovered ? 'glow' : ''}`}  style={{ backgroundImage: backgroundImage, transition: 'background-image 0.5s ease-in-out'}}
+<div className={`gradient-bg ${isHovered ? 'glow' : ''}`}  style={{ backgroundImage: backgroundImage}}
  onMouseEnter={() => setIsHovered(true)}
  onMouseLeave={() => setIsHovered(false)}>
     <div style={{display:isHovered?"none":"flex"}}><ul>

@@ -27,11 +27,13 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    transition: background-image 0.5s ease-in-out, transform 0.2s ease-in-out;
     
   }
   .glow {
     border: solid 0.3rem #b9935f;
-    box-shadow: 0 0 15px #b9935f;
+    box-shadow: 0 -5px 8px #b9935f80;
+    transform: translate3d(0, -10px, 20px);
 }
   .gradient-bg div{
     padding-left: 2rem;
@@ -54,6 +56,7 @@
     padding-inline: 0.8rem;
     border-radius: 2rem;
     font-size: 18px;
+    transition: 10s ease-in;
 }
 
 .desc h3 {

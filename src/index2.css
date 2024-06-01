@@ -34,8 +34,10 @@ footer{
     margin-inline: 8rem;
     border-radius: 2rem;
     padding:2.5rem;
-    margin-bottom:50px ;
-    
+    margin-bottom:50px ; 
+}
+p:hover{
+  color: white;
 }
 
 footer ul{

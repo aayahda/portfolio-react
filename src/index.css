@@ -163,8 +163,6 @@ Button{
   .container{
   display:flex;
   flex-direction: column;
-  /* grid-template-columns: 1fr ;
-  grid-template-rows: 1fr 1fr 1fr 1fr; */
 }
   .filler{
     display: none;
@@ -256,4 +254,8 @@ div .container3{
   box-sizing: border-box;
   padding-top:20px;
   padding-inline: 60px;
+}
+
+li:hover{
+  color: white;
 }
