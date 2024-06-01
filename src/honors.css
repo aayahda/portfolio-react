@@ -38,3 +38,8 @@
     /* box-shadow: 0 0 15px white; */
     /* box-shadow: 12px 0 15px -4px white, -12px 0 15px -4px white;*/
 }
+@media (max-width: 1000px) {
+    .bg-img{
+       height: 18rem;
+    }
+}

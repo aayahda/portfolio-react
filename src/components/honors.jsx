@@ -6,9 +6,9 @@ function Honors(){
     return (
     <div className="honors">
         <h1> Key Accomplishments</h1>
-        <div className="honor-box">
+        <div className="honor-box" >
             <div className="box">
-                <div className="bg-img" style={{backgroundImage:"url(https://i.pinimg.com/564x/89/bb/ca/89bbcab73b8d5d37272c2ed534af1237.jpg)",backgroundSize:"contain"}}></div>
+                <div className="bg-img" style={{backgroundImage:"url(https://i.pinimg.com/564x/e2/d9/e1/e2d9e1a35adbd3690f944d9839dddf23.jpg)",backgroundSize:"contain"}}></div>
                     <p> Bagged a prize in National-level India Plastic Challenge Hackathon conducted by the Ministry of India.</p>
             </div>
             <div className="box">
