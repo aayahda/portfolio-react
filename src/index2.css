@@ -13,8 +13,7 @@
     align-items: start;
     justify-content: center;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .desc h5 {

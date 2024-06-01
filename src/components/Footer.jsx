@@ -1,5 +1,5 @@
 import React from "react";
-import Fab from '@material-ui/core/Fab';
+import Fab from '@mui/material/Fab';
 import { Link } from 'react-scroll';
 
 

@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import '../works.css';
-import Fab from '@material-ui/core/Fab';
+import Fab from '@mui/material/Fab';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 

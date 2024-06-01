@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Fab from '@material-ui/core/Fab';
-import Button from '@material-ui/core/Button';
+import Fab from '@mui/material/Fab';
+import Button from '@mui/material/Button';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { Link } from 'react-scroll';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -70,7 +70,7 @@ function Navbar() {
       </div>
       <div className={menuOpen ? "btnopen" : "btnclosed"}>
         <a href="mailto:aadhyakraj@gmail.com?subject=Hey! Let's Connect" target="_blank" rel="noopener noreferrer">
-          <Button className="ls-button" style={{ textTransform: 'none', borderRadius: '8px', width: "8rem" }} variant="contained">Let's Talk<ArrowOutwardIcon size="small" /></Button>
+          <Button className="ls-button" style={{ textTransform: 'none', borderRadius: '8px', width: "8rem",backgroundColor: 'white', color:"black"}} variant="contained">Let's Talk<ArrowOutwardIcon size="small" /></Button>
         </a>
       </div>
     </nav>

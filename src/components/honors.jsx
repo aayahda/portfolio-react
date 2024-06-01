@@ -1,6 +1,5 @@
 import React from "react";
 import '../honors.css';
-import AOS from 'aos';
 
 
 function Honors(){
